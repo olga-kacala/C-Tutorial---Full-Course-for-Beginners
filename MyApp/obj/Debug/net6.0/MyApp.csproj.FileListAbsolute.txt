@@ -1,0 +1,15 @@
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/bin/Debug/net6.0/MyApp
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/bin/Debug/net6.0/MyApp.deps.json
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/bin/Debug/net6.0/MyApp.runtimeconfig.json
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/bin/Debug/net6.0/MyApp.dll
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/bin/Debug/net6.0/MyApp.pdb
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/obj/Debug/net6.0/MyApp.csproj.AssemblyReference.cache
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/obj/Debug/net6.0/MyApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/obj/Debug/net6.0/MyApp.AssemblyInfoInputs.cache
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/obj/Debug/net6.0/MyApp.AssemblyInfo.cs
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/obj/Debug/net6.0/MyApp.csproj.CoreCompileInputs.cache
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/obj/Debug/net6.0/MyApp.dll
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/obj/Debug/net6.0/refint/MyApp.dll
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/obj/Debug/net6.0/MyApp.pdb
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/obj/Debug/net6.0/MyApp.genruntimeconfig.cache
+/home/olga/Pulpit/My REPO/C#/C-Tutorial---Full-Course-for-Beginners/MyApp/obj/Debug/net6.0/ref/MyApp.dll
