@@ -1,4 +1,7 @@
-﻿using Internal;
+﻿using System.IO;
+using System.Text.RegularExpressions;
+using System.Data;
+using Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,6 +37,8 @@ namespace Panda
         Console.WriteLine(phrase.IndexOf("course"));
         Console.WriteLine(phrase.IndexOf("o"));
         Console.WriteLine(phrase.Substring(3, 6));
+
+        Console.WriteLine(Math.Sqrt(36));
          
 
             Console.ReadLine();
