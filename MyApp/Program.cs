@@ -1,7 +1,6 @@
 ﻿using System.IO;
 using System.Text.RegularExpressions;
 using System.Data;
-using Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,25 +22,32 @@ namespace Panda
         //     Console.WriteLine(characterName + " liked beeing " + characterAge);
 
 
-        string phrase = "My course";
-        char grade = 'A';
-        int age = 30;
-        double gpa = 0.3;
-        bool isMale = true;
+        // string phrase = "My course";
+        // char grade = 'A';
+        // int age = 30;
+        // double gpa = 0.3;
+        // bool isMale = true;
 
-        Console.WriteLine("My\ncourse");
-        Console.WriteLine(phrase.Length);
-        Console.WriteLine(phrase.ToUpper());
-        Console.WriteLine(phrase.Contains("My"));
-        Console.WriteLine(phrase[0]);
-        Console.WriteLine(phrase.IndexOf("course"));
-        Console.WriteLine(phrase.IndexOf("o"));
-        Console.WriteLine(phrase.Substring(3, 6));
+        // Console.WriteLine("My\ncourse");
+        // Console.WriteLine(phrase.Length);
+        // Console.WriteLine(phrase.ToUpper());
+        // Console.WriteLine(phrase.Contains("My"));
+        // Console.WriteLine(phrase[0]);
+        // Console.WriteLine(phrase.IndexOf("course"));
+        // Console.WriteLine(phrase.IndexOf("o"));
+        // Console.WriteLine(phrase.Substring(3, 6));
+        // Console.WriteLine(Math.Sqrt(36));
+        //     Console.ReadLine();
 
-        Console.WriteLine(Math.Sqrt(36));
-         
+Console.Write("Enter your name: ");
+string name = Console.ReadLine();
+Console.WriteLine("Hello "+ name);
+Console.Write("What is your are?");
+string age = Console.ReadLine();
+Console.WriteLine("Your age is "+ age);
+Console.ReadLine(); 
 
-            Console.ReadLine();
+
         }
     }
 }
