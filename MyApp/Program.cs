@@ -81,20 +81,49 @@ namespace Panda
 // SayHi("Ola", 32);
 // Console.ReadLine();
 
-Console.WriteLine(Cube(5));
+// Console.WriteLine(Cube(5));
+
+// bool isMale = true;
+// bool isTall = false;
+// if (isMale && isTall) {
+//     Console.WriteLine("You are a tall male");
+// } else if (isMale && !isTall){
+//     Console.WriteLine("You are a short male");
+// } else {
+//     Console.WriteLine("You are not a tall male");
+// }
+
+Console.Write("Enter a number: ");
+            double num1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter a operator: ");
+            string op = Console.ReadLine();
+            Console.Write("Enter second number: ");
+            double num2 = Convert.ToDouble(Console.ReadLine());
+
+            if (op == "+") {
+                Console.WriteLine(num1 + num2);
+            } else if (op == "-") {
+                Console.Write(num1-num2);
+            } else if (op == "*") {
+                Console.Write(num1*num2);
+            } else if (op == "/") {
+                Console.Write(num1/num2);
+            } else {
+                Console.WriteLine("Invalid operator");
+                }
 
 
         }
 
-static void SayHi (string user, int age) {
+// static void SayHi (string user, int age) {
     
-    Console.WriteLine("Hello " + user + ". Your age is " + age);
-}
+//     Console.WriteLine("Hello " + user + ". Your age is " + age);
+// }
 
-static int Cube (int num) {
-    int result = num * num * num;
-    return result;
-}
+// static int Cube (int num) {
+//     int result = num * num * num;
+//     return result;
+// }
 
    }
 }
