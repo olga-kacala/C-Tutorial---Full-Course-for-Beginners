@@ -54,19 +54,47 @@ namespace Panda
 // Console.WriteLine(num1+num2);
 // Console.ReadLine();
 
-string colour, noun, celebrity;
+// string colour, noun, celebrity;
+// Console.Write("Type a colour: ");
+// colour = Console.ReadLine();
+// Console.Write("Type a noun: ");
+// noun = Console.ReadLine();
+// Console.Write("Type a celebrity: ");
+// celebrity = Console.ReadLine();
+// Console.WriteLine("Roses are " + colour);
+// Console.WriteLine(noun + " are blue");
+// Console.WriteLine("I love " + celebrity);
+// Console.ReadLine();
 
-Console.Write("Type a colour: ");
-colour = Console.ReadLine();
-Console.Write("Type a noun: ");
-noun = Console.ReadLine();
-Console.Write("Type a celebrity: ");
-celebrity = Console.ReadLine();
-Console.WriteLine("Roses are " + colour);
-Console.WriteLine(noun + " are blue");
-Console.WriteLine("I love " + celebrity);
-Console.ReadLine();
+// int [] luckyNumbers = {2, 4, 15, 3, 68, 11};
+// Console.WriteLine(luckyNumbers[5]);
+// luckyNumbers [5] = 0;
+// Console.WriteLine(luckyNumbers[5]);
+
+// string [] names = new string [2];
+// names [0] = "Olga";
+// Console.WriteLine(names[0]);
+
+
+// SayHi("Olga", 32);
+// SayHi("Daniel", 33);
+// SayHi("Ola", 32);
+// Console.ReadLine();
+
+Console.WriteLine(Cube(5));
+
 
         }
-    }
+
+static void SayHi (string user, int age) {
+    
+    Console.WriteLine("Hello " + user + ". Your age is " + age);
+}
+
+static int Cube (int num) {
+    int result = num * num * num;
+    return result;
+}
+
+   }
 }
