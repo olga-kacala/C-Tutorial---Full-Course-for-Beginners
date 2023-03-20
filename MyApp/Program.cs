@@ -93,25 +93,28 @@ namespace Panda
 //     Console.WriteLine("You are not a tall male");
 // }
 
-Console.Write("Enter a number: ");
-            double num1 = Convert.ToDouble(Console.ReadLine());
-            Console.Write("Enter a operator: ");
-            string op = Console.ReadLine();
-            Console.Write("Enter second number: ");
-            double num2 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Enter a number: ");
+//             double num1 = Convert.ToDouble(Console.ReadLine());
+//             Console.Write("Enter a operator: ");
+//             string op = Console.ReadLine();
+//             Console.Write("Enter second number: ");
+//             double num2 = Convert.ToDouble(Console.ReadLine());
 
-            if (op == "+") {
-                Console.WriteLine(num1 + num2);
-            } else if (op == "-") {
-                Console.Write(num1-num2);
-            } else if (op == "*") {
-                Console.Write(num1*num2);
-            } else if (op == "/") {
-                Console.Write(num1/num2);
-            } else {
-                Console.WriteLine("Invalid operator");
-                }
+//             if (op == "+") {
+//                 Console.WriteLine(num1 + num2);
+//             } else if (op == "-") {
+//                 Console.Write(num1-num2);
+//             } else if (op == "*") {
+//                 Console.Write(num1*num2);
+//             } else if (op == "/") {
+//                 Console.Write(num1/num2);
+//             } else {
+//                 Console.WriteLine("Invalid operator");
+//                 }
 
+
+Console.WriteLine(WeekDay(0));
+Console.ReadLine();
 
         }
 
@@ -124,6 +127,39 @@ Console.Write("Enter a number: ");
 //     int result = num * num * num;
 //     return result;
 // }
+
+static string WeekDay (int dayNum) {
+    string day;
+
+switch (dayNum) {
+case 0:
+day= "Sunday";
+break;
+case 1:
+day = "Monday";
+break;
+case 2:
+day= "Tuesday";
+break;
+case 3:
+day= "Wednesday";
+break;
+case 4:
+day= "Thursday";
+break;
+case 5:
+day= "Friday";
+break;
+case 6:
+day= "Saturday";
+break;
+default:
+day= "Invalid Day number";
+break;
+
+}
+return day;
+}
 
    }
 }
