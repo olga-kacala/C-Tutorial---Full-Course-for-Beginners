@@ -113,10 +113,21 @@ namespace Panda
 //                 }
 
 
-Console.WriteLine(WeekDay(0));
-Console.ReadLine();
+// Console.WriteLine(WeekDay(0));
+// Console.ReadLine();
 
-        }
+int index = 6;
+
+// while (index <=5) {
+//     Console.WriteLine(index);
+//     index ++;
+// }
+
+do {
+Console.WriteLine(index);
+    index ++;
+} while (index <=5);
+}
 
 // static void SayHi (string user, int age) {
     
@@ -128,38 +139,40 @@ Console.ReadLine();
 //     return result;
 // }
 
-static string WeekDay (int dayNum) {
-    string day;
+// static string WeekDay (int dayNum) {
+//     string day;
 
-switch (dayNum) {
-case 0:
-day= "Sunday";
-break;
-case 1:
-day = "Monday";
-break;
-case 2:
-day= "Tuesday";
-break;
-case 3:
-day= "Wednesday";
-break;
-case 4:
-day= "Thursday";
-break;
-case 5:
-day= "Friday";
-break;
-case 6:
-day= "Saturday";
-break;
-default:
-day= "Invalid Day number";
-break;
+// switch (dayNum) {
+// case 0:
+// day= "Sunday";
+// break;
+// case 1:
+// day = "Monday";
+// break;
+// case 2:
+// day= "Tuesday";
+// break;
+// case 3:
+// day= "Wednesday";
+// break;
+// case 4:
+// day= "Thursday";
+// break;
+// case 5:
+// day= "Friday";
+// break;
+// case 6:
+// day= "Saturday";
+// break;
+// default:
+// day= "Invalid Day number";
+// break;
 
-}
-return day;
-}
+// }
+// return day;
+// }
+
+
 
    }
 }
