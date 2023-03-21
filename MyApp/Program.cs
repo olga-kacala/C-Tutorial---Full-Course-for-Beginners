@@ -116,18 +116,17 @@ namespace Panda
 // Console.WriteLine(WeekDay(0));
 // Console.ReadLine();
 
-int index = 6;
-
+// int index = 6;
 // while (index <=5) {
 //     Console.WriteLine(index);
 //     index ++;
 // }
 
-do {
-Console.WriteLine(index);
-    index ++;
-} while (index <=5);
-}
+// do {
+// Console.WriteLine(index);
+//     index ++;
+// } while (index <=5);
+// }
 
 // static void SayHi (string user, int age) {
     
@@ -172,7 +171,33 @@ Console.WriteLine(index);
 // return day;
 // }
 
+// GuessGame 
+string guessMyName = "Olga";
+string guess = "";
+bool outOfGuess = false;
+int guessCount = 0;
+int guessLimit = 3;
+
+while (guess != guessMyName && !outOfGuess) {
+if (guessCount < guessLimit) {
+    Console.WriteLine("Guess my name:");
+   guess = Console.ReadLine();
+    guessCount++;
+} else 
+{
+outOfGuess = true;
+}
+}
+if (outOfGuess) {
+Console.WriteLine("You lose :(");
+} else  {
+Console.WriteLine("You win!");
+}
+    
+
+
 
 
    }
+}
 }
