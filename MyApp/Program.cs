@@ -195,10 +195,23 @@ namespace Panda
 // }
     
 // Foor Loop
-int [] luckyNumbers = {2, 4, 15, 3, 68, 11};
-for (int i=0; i < luckyNumbers.Length; i++ ) {
-    Console.WriteLine(luckyNumbers[i]);
-}
+// int [] luckyNumbers = {2, 4, 15, 3, 68, 11};
+// for (int i=0; i < luckyNumbers.Length; i++ ) {
+//     Console.WriteLine(luckyNumbers[i]);
+// }
+
+Console.WriteLine(PowMethod(3,3));
+
    }
+
+   static int PowMethod (int baseNum, int powNum) {
+int result = 1;
+
+for (int i = 0; i<powNum; i++) {
+    result = result * baseNum;
+}
+return result;
+   }
+
 }
 }
