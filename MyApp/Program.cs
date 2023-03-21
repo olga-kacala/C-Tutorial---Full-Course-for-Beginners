@@ -172,32 +172,33 @@ namespace Panda
 // }
 
 // GuessGame 
-string guessMyName = "Olga";
-string guess = "";
-bool outOfGuess = false;
-int guessCount = 0;
-int guessLimit = 3;
+// string guessMyName = "Olga";
+// string guess = "";
+// bool outOfGuess = false;
+// int guessCount = 0;
+// int guessLimit = 3;
 
-while (guess != guessMyName && !outOfGuess) {
-if (guessCount < guessLimit) {
-    Console.WriteLine("Guess my name:");
-   guess = Console.ReadLine();
-    guessCount++;
-} else 
-{
-outOfGuess = true;
-}
-}
-if (outOfGuess) {
-Console.WriteLine("You lose :(");
-} else  {
-Console.WriteLine("You win!");
-}
+// while (guess != guessMyName && !outOfGuess) {
+// if (guessCount < guessLimit) {
+//     Console.WriteLine("Guess my name:");
+//    guess = Console.ReadLine();
+//     guessCount++;
+// } else 
+// {
+// outOfGuess = true;
+// }
+// }
+// if (outOfGuess) {
+// Console.WriteLine("You lose :(");
+// } else  {
+// Console.WriteLine("You win!");
+// }
     
-
-
-
-
+// Foor Loop
+int [] luckyNumbers = {2, 4, 15, 3, 68, 11};
+for (int i=0; i < luckyNumbers.Length; i++ ) {
+    Console.WriteLine(luckyNumbers[i]);
+}
    }
 }
 }
