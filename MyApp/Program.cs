@@ -200,18 +200,38 @@ namespace Panda
 //     Console.WriteLine(luckyNumbers[i]);
 // }
 
-Console.WriteLine(PowMethod(3,3));
+// Console.WriteLine(PowMethod(3,3));
 
-   }
-
-   static int PowMethod (int baseNum, int powNum) {
-int result = 1;
-
-for (int i = 0; i<powNum; i++) {
-    result = result * baseNum;
+//Try catch
+try {
+Console.Write("Type a number: ");
+int num1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Type second number: ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine(num1/num2);
+Console.ReadLine();
 }
-return result;
+catch (DivideByZeroException e) {
+Console.WriteLine(e.Message);
+}
+catch (FormatException e) {
+    Console.WriteLine(e.Message);
+}
+finally {
+Console.WriteLine("End");
+}
+
+
    }
+
+//    static int PowMethod (int baseNum, int powNum) {
+// int result = 1;
+
+// for (int i = 0; i<powNum; i++) {
+//     result = result * baseNum;
+// }
+// return result;
+//    }
 
 }
 }
