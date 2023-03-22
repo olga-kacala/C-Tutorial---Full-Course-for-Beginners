@@ -222,17 +222,17 @@ namespace MyApp
 // }
 
 // Classes
-Book book1 = new Book();
-book1.title = "HP";
-book1.author = "JKR";
-book1.pages = 400;
+Book book1 = new Book("HP","JKR",400);
+// book1.title = "HP";
+// book1.author = "JKR";
+// book1.pages = 400;
 
-Book book2 = new Book();
-book2.title = "LOTR";
-book2.author = "RRRRT";
-book2.pages = 700;
+Book book2 = new Book("LOTR","RRRRT",700);
+// book2.title = "LOTR";
+// book2.author = "RRRRT";
+// book2.pages = 700;
 
-Console.WriteLine(book1);
+Console.WriteLine(book1.title);
 
    }
 
