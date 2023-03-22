@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Panda
+namespace MyApp
 {
     class Program
     {
@@ -203,24 +203,36 @@ namespace Panda
 // Console.WriteLine(PowMethod(3,3));
 
 //Try catch
-try {
-Console.Write("Type a number: ");
-int num1 = Convert.ToInt32(Console.ReadLine());
-Console.Write("Type second number: ");
-int num2 = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine(num1/num2);
-Console.ReadLine();
-}
-catch (DivideByZeroException e) {
-Console.WriteLine(e.Message);
-}
-catch (FormatException e) {
-    Console.WriteLine(e.Message);
-}
-finally {
-Console.WriteLine("End");
-}
+// try {
+// Console.Write("Type a number: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Type second number: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine(num1/num2);
+// Console.ReadLine();
+// }
+// catch (DivideByZeroException e) {
+// Console.WriteLine(e.Message);
+// }
+// catch (FormatException e) {
+//     Console.WriteLine(e.Message);
+// }
+// finally {
+// Console.WriteLine("End");
+// }
 
+// Classes
+Book book1 = new Book();
+book1.title = "HP";
+book1.author = "JKR";
+book1.pages = 400;
+
+Book book2 = new Book();
+book2.title = "LOTR";
+book2.author = "RRRRT";
+book2.pages = 700;
+
+Console.WriteLine(book1);
 
    }
 
