@@ -235,13 +235,18 @@ namespace MyApp
 
 
 //Students
+// Students student1 = new Students ("Jim", "IT", 2.8);
+// Students student2 = new Students ("Jil", "Art", 3.6);
+// Console.WriteLine(student1.Honors());
+// Console.WriteLine(student2.Honors());
 
-Students student1 = new Students ("Jim", "IT", 2.8);
-Students student2 = new Students ("Jil", "Art", 3.6);
+//Movies
+Movie avengers = new Movie ("Avengers", "Joss", "PG-13");
+Movie shrek = new Movie ("Shrek", "Adam", "PG");
 
-Console.WriteLine(student1.Honors());
-Console.WriteLine(student2.Honors());
-
+Console.WriteLine(avengers.Rate);
+Console.WriteLine(shrek.Rate);
+Console.ReadLine();
    }
 
 //    static int PowMethod (int baseNum, int powNum) {
