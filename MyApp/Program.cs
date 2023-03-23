@@ -241,13 +241,23 @@ namespace MyApp
 // Console.WriteLine(student2.Honors());
 
 //Movies
-Movie avengers = new Movie ("Avengers", "Joss", "PG-13");
-Movie shrek = new Movie ("Shrek", "Adam", "PG");
+// Movie avengers = new Movie ("Avengers", "Joss", "PG-13");
+// Movie shrek = new Movie ("Shrek", "Adam", "PG");
+// Console.WriteLine(avengers.Rate);
+// Console.WriteLine(shrek.Rate);
+// Console.ReadLine();
 
-Console.WriteLine(avengers.Rate);
-Console.WriteLine(shrek.Rate);
+//Song
+Song hello = new Song("Hello", "Adele", 400);
+Console.WriteLine(Song.count);
+Song always = new Song("Always", "MYD", 200);
+Console.WriteLine(Song.count);
+
+Console.WriteLine(hello.author);
+Console.WriteLine(always.title);
 Console.ReadLine();
-   }
+
+ }
 
 //    static int PowMethod (int baseNum, int powNum) {
 // int result = 1;
