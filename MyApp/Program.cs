@@ -248,14 +248,21 @@ namespace MyApp
 // Console.ReadLine();
 
 //Song
-Song hello = new Song("Hello", "Adele", 400);
-Console.WriteLine(Song.count);
-Song always = new Song("Always", "MYD", 200);
-Console.WriteLine(Song.count);
+// Song hello = new Song("Hello", "Adele", 400);
+// Console.WriteLine(Song.count);
+// Song always = new Song("Always", "MYD", 200);
+// Console.WriteLine(Song.count);
 
-Console.WriteLine(hello.author);
-Console.WriteLine(always.title);
-Console.ReadLine();
+// Console.WriteLine(hello.author);
+// Console.WriteLine(always.title);
+// UsefulTool.SayHi("Olga");
+// Console.ReadLine();
+
+//Chef
+Chef chef = new Chef();
+ItalianChef italianChef = new ItalianChef();
+chef.Special();
+italianChef.Special();
 
  }
 
